@@ -41,6 +41,7 @@
 
 .formulario__dupla {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .formulario__botao {
