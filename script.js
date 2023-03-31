@@ -37,3 +37,20 @@ const verCEP = fetch("https://viacep.com.br/ws/35330000/json/", {})
 
 //   }
 // })
+
+/* HTTP é um protocolo, uma forma de conversa entre duas máquinas,
+que permite transferir hiper-texto de um lado a outro.
+Daí o nome Hyper Text Transport Protocol.
+
+Códigos comuns de response: 
+1XX: Informativo – a solicitação foi aceita ou está em andamento;
+2XX: Confirmação – a solicitação foi concluída ou entendida;
+3XX: Redirecionamento – faltou alguma coisa na solicitação;
+4XX: Erro do cliente – houve um erro na solicitação;
+5XX: Erro no servidor – houve uma falha no servidor durante a solicitação.
+
+https://http.cat/
+
+https://www.alura.com.br/artigos/comecando-com-fetch-no-javascript
+
+*/
